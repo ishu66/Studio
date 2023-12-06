@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Name - Work</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        section.work {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .project {
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            display: block;
+           
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            text-align: center;
+            color: #23212168;
+            background-color: #afa9a9;
+        }
+
+        .project:hover .overlay {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Duo Studio</h1>
+        <p>Check Out Our Work</p>
+    </header>
+
+    <section class="work">
+        <div class="project">
+            <img src="caught-in-joy-ptVBlniJi50-unsplash.jpg" alt="Project 1">
+            <div class="overlay">Music Recording</div>
+            <h3>Music Recording</h3>
+            <h3>Our Services Include:</h3>
+        <ul>
+            <li>High-quality audio recording in a controlled environment.</li>
+            <li>Professional-grade microphones and equipment.</li>
+            <li>Experienced sound engineers dedicated to your project.</li>
+            <li>Customizable recording packages to suit your needs and budget.</li>
+            <li>Multi-track recording for instruments and vocals.</li>
+            <li>Post-production services, including mixing and mastering.</li>
+        </ul>
+        </div>
+
+        <div class="project">
+            <img src="harry-cunningham-7L2h4zTYiNI-unsplash.jpg" alt="Project 2">
+            <div class="overlay">Photoshoot</div>
+            <h3>Photoshoot</h3>
+            <h3>Our Photoshoot Services Include:</h3>
+        <ul>
+            <li>Spacious and versatile shooting areas with customizable backdrops.</li>
+            <li>Professional lighting equipment to enhance your photos.</li>
+            <li>State-of-the-art cameras and photography gear for optimal image quality.</li>
+            <li>Experienced photographers dedicated to bringing your vision to life.</li>
+            <li><span class="highlight">Customizable Packages:</span> Tailor your photoshoot experience to meet your specific needs and preferences.</li>
+        </ul>
+    
+        </div>
+
+        <div class="project">
+            <img src="luther-yonel-t04qpDs4rYk-unsplash.jpg" alt="Project 2">
+            <div class="overlay">Podcasting</div>
+            <h3>Podcasting</h3>
+            <ul style="text-decoration: none;">
+                <li>State-of-the-art recording facilities with acoustically treated rooms.</li>
+                <li>Professional-grade microphones and audio equipment.</li>
+                <li>Experienced sound engineers dedicated to enhancing your podcast's quality.</li>
+                <li>Editing and post-production services to ensure a polished final product.</li>
+                <li>Flexible scheduling to accommodate your recording sessions.</li>
+                <li><span class="highlight">Customizable Packages:</span> Choose from a range of packages to suit your podcasting needs and budget.</li>
+            </ul>
+    
+        </div>
+       
+
+    </section>
+</body>
+
+</html>
